@@ -1,0 +1,344 @@
+/*fonts*/
+
+@font-face {
+    src: url('../fonts/tahoma.ttf');
+    font-family: tahoma, sans-serif;
+
+}
+
+
+
+/*basic setup*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    overflow-x: hidden;
+}
+
+html {
+    font-family: tahoma, sans-serif;
+    font-size: 20px;
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+
+}
+
+.row {
+    max-width: 100%;
+    margin: auto;
+    padding: 0 30px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+/*mobile menu css start*/
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/*mobile menu end*/
+
+nav span {
+    display: none;
+}
+
+
+
+
+
+nav {
+    background: #576574;
+    color: #fff;
+    height: 15vh;
+}
+
+nav ul {
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+    padding: 10px 0;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+
+
+}
+
+nav ul li a button {
+    background: #0EBFDE;
+    border: 1px solid #0EBFDE;
+    padding: 6px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+
+
+nav ul li:hover {
+    background: #0EBFDE;
+
+
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #57606f;
+
+
+}
+
+.sticky ul {
+    margin-top: 0px;
+}
+
+.sticky ul li {
+    margin: 10px;
+}
+
+.sticky img {
+    margin-left: -160px;
+    margin-top: 40px;
+
+}
+
+nav img {
+    font-size: 30px;
+    margin: 35px 0px 15px -160px;
+    display: inline-block;
+
+}
+
+p {
+    text-align: center;
+    margin: 0px 50px;
+    font-size: 30px;
+}
+
+
+
+
+
+/*main menu end*/
+
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background: url('img/bg.png')no-repeat center/cover;
+    position: relative;
+}
+
+h2 {
+    color: #f7fdfe;
+    margin-top: 200px;
+    display: inline-block;
+
+}
+
+.bg p {
+    margin-top: 40px;
+    color: #f7fdfe;
+    font-size: 20px;
+}
+
+.bg p b {
+    font-size: 44px;
+}
+
+
+/*about section*/
+
+.about {
+    padding: 80px 0;
+}
+
+.about h3 {
+    font-size: 44px;
+
+}
+
+.about p {
+    font-size: 20px;
+    color: #45494d;
+    padding: 20px;
+}
+
+
+/*team section or work with us section*/
+.team {
+    background-color: #0ebfde;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+}
+
+.team button {
+    background-color: #0ebfdd;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    border: 2px solid #fff;
+}
+
+.team h3,
+    {
+    color: #fff;
+}
+
+/*faq css*/
+.faq {
+    background-color: #45494d;
+}
+
+.col-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.faq ul {
+    float: left;
+    padding: 10px;
+
+
+}
+
+.faq ul li {
+    display: inline-block;
+    padding: 0 20px;
+    margin-top: 12px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+
+}
+
+.faq ul li a {
+    color: #c8ced4;
+}
+
+.faq .item-2 i {
+    color: #c8ced4;
+    padding: 10px;
+    display: inline-block;
+    color: #c8ced4;
+    margin: 10px;
+    padding: 10px 10px;
+    border: 1px solid #fff;
+    border-radius: 180px;
+    font-size: 12px;
+
+}
+
+.faq .col-item-2 .fa-facebook-f {
+
+
+    color: #c8ced4;
+    padding: 10px;
+    display: inline-block;
+    color: #c8ced4;
+    margin: 10px;
+    padding: 10px 14px;
+    border: 1px solid #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    font-size: 12px;
+
+}
+
+.footer {
+    padding: 10px;
+}
+
+.footer span {
+    font-size: 14px;
+    color: #c8ced4;
+    margin-left: 550px;
+
+}

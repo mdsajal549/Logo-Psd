@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Logo</title>
+
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <script src="https://kit.fontawesome.com/91677cab54.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--header part start here-->
+    <header id="home">
+
+
+
+
+        <nav>
+            <div class="row">
+                <a href="">
+                    <img src="resources/img/logo.png" alt="Logo">
+                </a>
+                <ul class="main-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work With us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <li><a href="#sign"><button>sign in</button></a></li>
+
+
+                </ul>
+
+
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a onclick="closeNav()" href="#home">Home</a>
+                        <a onclick="closeNav()" href="#about">About</a>
+                        <a onclick="closeNav()" href="#work">Work with us</a>
+                        <a onclick="closeNav()" href="#contact">Contact</a>
+                        <a onclick="closeNav()" href="#sign"><button>Sign in</button></a>
+
+                    </div>
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+            </div>
+        </nav>
+
+
+        <div class="bg">
+
+
+
+            <h2>Our Mission</h2>
+
+
+            <p>
+
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum <br> has been the industry's standard dummy text ever since the 1500.</p>
+
+
+        </div>
+
+    </header>
+
+    <!--about section-->
+    <section class="about js-function" id="about">
+        <div class="row">
+            <h3>About</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum <br> has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
+        </div>
+    </section>
+
+
+    <section class="team js-function" id="work">
+        <div class="col-3">
+            <div class="col-item-3">
+                <img src="resources/img/team1.png" alt="">
+                <h3>John Doe <br>
+                    Founder & CEO</h3>
+            </div>
+            <div class="col-item-3">
+                <img src="resources/img/team2.png" alt="">
+                <h3>John Doe <br>
+                    Co- Founder</h3>
+            </div>
+            <div class="col-item-3">
+                <img src="resources/img/team3.png" alt="">
+                <h3>John Doe <br>
+                    Investor</h3>
+            </div>
+        </div>
+        <button><a href="">work with us</a></button>
+    </section>
+    <section class="map" id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2475.8092017067497!2d-0.11283898489813873!3d51.645019208453576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487618d93f8a1055%3A0xdd2387b1e07ee563!2sHighlands%20Ave%2C%20London%2C%20UK!5e0!3m2!1sen!2sbd!4v1584005422264!5m2!1sen!2sbd" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+
+    <section class="faq js-function">
+        <div class="row">
+            <div class="col-2">
+                <div class="col-item-2 item-1">
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">faq</a></li>
+                        <li><a href="">work with us</a></li>
+                    </ul>
+                </div>
+                <div class="col-item-2 item-2">
+                    <a href=""><i class="fas fa-envelope"></i></a>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer">
+            <span>Privacy Policy | Terms and Conditions | &copy; Ifthekar Sajal</span>
+        </div>
+
+    </section>
+
+
+    <script src="vendors/js/jquery-3.4.1.min.js"></script>
+    <script src="vendors/js/jquery-smooth-scroll.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/main.js"></script>
+
+</body>
+
+</html>

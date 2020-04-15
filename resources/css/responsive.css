@@ -1,0 +1,371 @@
+@media only screen and (max-width: 480px) {
+
+    /*mobile menu start*/
+    nav {
+        width: 100%;
+        overflow-x: hidden;
+
+    }
+
+
+
+    nav span {
+        display: block;
+        float: right;
+        margin-top: 4px;
+        margin-right: 20px;
+        border: 1px solid #333;
+        color: #333;
+        padding: 2px 6px;
+    }
+
+
+
+
+    .sticky img {
+        margin-left: 10px;
+        margin-top: 15px;
+
+    }
+
+    .sticky nav {
+
+        width: 100%;
+        overflow-x: hidden;
+
+    }
+
+
+    nav .main-nav {
+        display: none;
+
+    }
+
+    .overlay-content a button {
+        background: #0EBFDE;
+        border: 1px solid #0EBFDE;
+        padding: 6px 10px;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+
+
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow-x: hidden;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        color: #000;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay a {
+        padding: 12px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #818181;
+        display: block;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        text-transform: uppercase;
+    }
+
+    .overlay a:hover,
+    .overlay a:focus {
+        color: #f1f1f1;
+    }
+
+    .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+
+    @media screen and (max-height: 450px) {
+        .overlay a {
+            font-size: 20px
+        }
+
+        .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+        }
+    }
+
+
+
+
+    /*mobile menu end*/
+
+
+    /*bg part*/
+
+
+    h2 {
+        color: #f7fdfe;
+        margin-top: 200px;
+
+        font-size: 50px;
+
+        display: inline-block;
+        text-align: center;
+
+    }
+
+    .bg p {
+        margin-top: 20px;
+        color: #f7fdfe;
+        font-size: 50px;
+        display: inline-block;
+    }
+
+
+    .bg p {
+        margin-top: 90px;
+        color: #000;
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+        color: #f7fdfe;
+    }
+
+    .bg p b {
+        font-size: 30px;
+
+    }
+
+
+
+
+
+
+    /*about responsive css*/
+    .about {
+        font-size: 30px;
+        padding: 15px;
+
+    }
+
+    .about p {
+        font-size: 18px;
+        padding: 0px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+
+        text-align: center;
+    }
+
+    /*team section*/
+
+    .col-3 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .team h3 {
+        color: #fff;
+        padding: 20px;
+    }
+
+    .team button:hover {
+        background-color: #fff;
+        color: #fff;
+
+    }
+
+    /*faq css*/
+    .faq ul {
+        float: left;
+        padding: 5px;
+
+
+    }
+
+    .faq ul li {
+        display: inline-block;
+        padding: 0 10px;
+        margin-top: 15px;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: 800;
+
+    }
+
+    .faq .item-2 i {
+        color: #c8ced4;
+        padding: 10px;
+        display: inline-block;
+        color: #c8ced4;
+        margin: 10px;
+        padding: 10px 10px;
+        border: 1px solid #fff;
+        border-radius: 180px;
+        font-size: 10px;
+
+    }
+
+
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+    body {
+        max-width: 100%;
+    }
+
+    nav {
+        background-color: #f7fdfe;
+        height: 50px;
+        color: #82868f;
+    }
+
+    nav img {
+        float: left;
+        margin-left: 50px;
+        margin-top: 15px;
+        font-size: 10px;
+        color: #82868f;
+
+    }
+
+    nav ul {
+        float: right;
+        margin-right: 15px;
+        margin-top: 15px;
+        font-size: 5px;
+        text-transform: uppercase;
+
+
+
+    }
+
+    nav ul li {
+        display: inline-block;
+
+    }
+
+    nav ul li a {
+        list-style: none;
+        padding: 6px;
+        color: #82868f;
+
+
+    }
+
+    nav ul li a:hover {
+        background-color: #0ebfdd;
+    }
+
+    nav ul li a button {
+
+        background-color: #0ebfdd;
+        padding: 5px 25px;
+        border-radius: 20px;
+        color: #e2f5fa;
+        text-transform: uppercase;
+
+
+
+    }
+
+    nav ul li a button:hover {
+        background-color: #fff;
+        padding: 5px 15px;
+        border-radius: 20px;
+        color: #000;
+        text-transform: uppercase;
+
+
+
+    }
+
+    /*faq css*/
+    .faq {
+        background-color: #45494d;
+    }
+
+    .col-2 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .faq ul {
+        float: left;
+        padding: 5px;
+
+
+    }
+
+    .faq ul li {
+        display: inline-block;
+        padding: 0 5px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        font-size: 8px;
+        font-weight: 800;
+
+    }
+
+    .faq ul li a {
+        color: #c8ced4;
+    }
+
+    .faq .item-2 i {
+        color: #c8ced4;
+        padding: 5px;
+        display: inline-block;
+        color: #c8ced4;
+
+        margin: 5px;
+        padding: 8px 8px;
+        border: 1px solid #fff;
+        border-radius: 180px;
+        font-size: 10px;
+
+    }
+
+    .faq .col-item-2 .fa-facebook-f {
+
+
+        color: #c8ced4;
+        padding: 10px;
+        display: inline-block;
+        color: #c8ced4;
+        margin: 10px;
+        padding: 8px 10px;
+        border: 1px solid #fff;
+        width: 28px;
+        height: 28px;
+        border-radius: 100%;
+        font-size: 12px;
+        margin-top: 5px;
+
+    }
+
+
+
+
+
+}
